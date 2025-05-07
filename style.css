@@ -160,3 +160,50 @@ main .main-left .button{margin-top: 50px;}
 .feature-item p{text-align: center;}
 
 .features .button{margin-top: 5rem;}
+
+/********************************************/
+
+.pricing{
+    background-color: #7036BA;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 5rem 0;
+}
+
+.pricing h1{margin-bottom: 5rem;}
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 3rem;
+}
+
+.card{
+    background-color: #A76BF2;
+    padding: 2rem 1rem;
+}
+
+.card p ul li, .card h3, .card .card-price{color: #fff;}
+
+.card .card-price{font-size: 24px;}
+
+.card-text{margin-bottom: 1.2rem;}
+.card-text span{font-weight: 600;}
+
+.card-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.card .button{
+    color: white;
+    border-radius: 50px;
+    background-color: #ffffff00;
+    border: 3px solid white;
+    padding: .8rem 1.3rem;
+}
